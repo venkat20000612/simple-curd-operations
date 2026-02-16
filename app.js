@@ -18,7 +18,7 @@ var app = express();
 
 // ✅ CORS MUST BE HERE (Before Routes)
 app.use(cors({
-  origin: "https://venkat20000612.github.io/todo-forntend/"
+  origin: "https://venkat20000612.github.io"
 }));
 
 app.use(logger('dev'));
